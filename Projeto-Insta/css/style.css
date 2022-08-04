@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+}
+
+.smartphone{
+    display: block;
+    width: 50vh;
+    height:95vh ;
+    border: solid ;
+}
+
+.smartphone img{
+
+width: 100%;
+height: 78%;
+   
+}
+
+@media (max-width: 700px){
+
+    .smartphone{
+        display:none;
+    }
+}
+
+    
+
+
+
