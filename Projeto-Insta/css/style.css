@@ -1,29 +1,108 @@
-body{
-    background-color: aqua;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+
 }
 
-.smartphone{
-    display: block;
-    width: 50vh;
-    height:95vh ;
-    border: solid ;
+body {
+    background-color: rgb(200, 225, 246);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+
 }
 
-.smartphone img{
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-width: 100%;
-height: 78%;
-   
+    min-height: 100%;
+    min-width: 100%;
 }
 
-@media (max-width: 700px){
 
-    .smartphone{
-        display:none;
+
+.smartphone img {
+
+    max-height: 90vh;
+    max-width: 60vw;
+
+}
+
+@media (max-width: 800px) {
+
+    .smartphone {
+        display: none;
     }
 }
 
-    
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vh;
+    height: 100vh;
+    margin: 0px 1.5vh;
+
+}
+
+.conta {
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+
+    margin: 1.5vh;
+    padding: 1.9vh 3vh;
+    background-color: rgb(200, 225, 255);
+
+
+}
+
+.user {
+    margin: 2vh 0px;
+}
 
 
 
+.user-image {
+    border-radius: 50%;
+    width: 100%;
+    border: solid 0.4px ;
+}
+
+
+
+.login {
+    border: solid rgb(234, 255, 254);
+    border-radius: 15px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.524);
+    color: azure;
+    padding: 7px;
+    background-color: rgba(92, 156, 180, 0.646);
+    margin-bottom: 10px;
+ 
+}
+
+.app {
+    display: flex;
+
+    width: 90%;
+    justify-content: space-between;
+
+}
+
+.app img {
+    width: 47%;
+
+
+}
