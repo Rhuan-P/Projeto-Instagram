@@ -99,6 +99,12 @@ body {
  
 }
 
+.app-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
 .app {
     display: flex;
 
@@ -107,10 +113,14 @@ body {
 height: 5vw;
 }
 
-.app img {
+.app a {
     width: 48%;
+    margin-top: 10px;
 
 
+}
+.app img{
+    width: 100%;
 }
 @media (max-width: 1024px) {
 
