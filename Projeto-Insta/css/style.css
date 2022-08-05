@@ -55,44 +55,6 @@ body {
 
 
 
-@media (max-width: 1024px) {
-
-  .main{
-    width: 95%;
-  }
-  .content{
-    font-size: 20px;
-  }
-}
-
-
-@media (max-width: 700px) {
-
-    .smartphone {
-        display: none;
-    }
-    .content{
-        width: 80%;
-        font-size: 25px;
-    }
-}
-
-@media (min-width:1500px){
-    .content{font-size: 35px;
-    }
-    .user{
-        width: 50%;
-    }
-
-    .logo{
-        width: 30%;
-    }
-
-    .smartphone img{
-    width: 90rem;
-    }
-}
-
 
 .conta {
     display: flex;
@@ -106,7 +68,7 @@ body {
 
 
     margin: 1.5vh;
-    padding: 1.9vh 3vh;
+    padding: 1.9vh 3vw;
     background-color: rgb(200, 225, 255);
 
 
@@ -142,11 +104,53 @@ body {
 
     width: 90%;
     justify-content: space-between;
-
+height: 5vw;
 }
 
 .app img {
-    width: 47%;
+    width: 48%;
 
 
 }
+@media (max-width: 1024px) {
+
+  .main{
+    width: 95%;
+  }
+  .content{
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 700px) {
+
+    .smartphone {
+        display: none;
+    }
+    .content{
+        width: 80%;
+        font-size: 25px;
+    }
+
+    .app{
+        height: 15vw;
+    }
+}
+
+@media (min-width:1800px){
+    .content{font-size: 35px;
+    }
+    .user{
+        width: 50%;
+    }
+
+    .logo{
+        width: 30%;
+    }
+
+    .smartphone img{
+    width: 90rem;
+    }
+}
+
